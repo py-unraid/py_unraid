@@ -1,0 +1,14 @@
+[project]
+name = "py_unraid"
+version = "0.0.1"
+authors = [
+  { name="@mikedm139"},
+]
+description = "A package to interact with Unraid server(s)"
+readme = ""
+requires-python = ">=3.7"
+classifiers = []
+
+[project.urls]
+"Homepage" = ""
+"Bug Tracker" = ""
