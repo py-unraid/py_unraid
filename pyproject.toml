@@ -1,14 +1,25 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "py_unraid"
-version = "0.0.1"
+version = "0.1.0"
 authors = [
   { name="@mikedm139"},
 ]
-description = "A package to interact with Unraid server(s)"
-readme = ""
-requires-python = ">=3.7"
+license = { file = "LICENSE" }
+description = "A package to interact with Unraid OS via HTTP"
+readme = "README.md"
+requires-python = ">=3.9"
 classifiers = []
 
 [project.urls]
-"Homepage" = ""
-"Bug Tracker" = ""
+"Homepage" = "https://github.com/py-unraid/py_unraid"
+"Bug Tracker" = "https://github.com/py-unraid/py_unraid/issues"
+
+dependencies = [
+  "aiohttp",
+  "asyncio",
+  "bs4"
+]
